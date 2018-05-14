@@ -1,13 +1,19 @@
-const numbers = Array(100).fill(0).map((e,i)=>i+1);
+/*class BankAccount {
 
-var numbersMapped = numbers.map((n) => {
-    if ( n % 3 === 0 || n.toString().includes(3) ) {
-        return "Fizz";
-    } else if ( n % 5 === 0 || n.toString().includes(5) ) {
-        return "Buzz";
-    } else {
-        return n;
+    constructor(balance = 0) {
+        this.balance = balance
     }
-});  
 
-console.log(numbersMapped);
+    deposit(n) {
+        this.balance = this.balance + n
+        return this.balance
+    }
+
+    withdrawal(n) {
+        this.balance = this.balance -n
+        return this.balance
+    }
+
+}
+
+export { BankAccount }*/
